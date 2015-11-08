@@ -28,9 +28,9 @@
     'begin': '\\b(struct|union)\\b\\s*([_A-Za-z][_A-Za-z0-9]*)\\b'
     'beginCaptures':
       '1':
-        'name': 'storage.type.mojom'
+        'name': 'keyword.declaration.mojom'
       '2':
-        'name': 'entity.name.type.mojom'
+        'name': 'entity.type.mojom'
     'end': '(?<=\\})'
     'name': 'meta.struct-union-block.mojom'
     'patterns': [
@@ -56,9 +56,9 @@
     'begin': '\\b(interface)\\b\\s*([_A-Za-z][_A-Za-z0-9]*)\\b'
     'beginCaptures':
       '1':
-        'name': 'storage.type.mojom'
+        'name': 'keyword.declaration.mojom'
       '2':
-        'name': 'entity.name.type.mojom'
+        'name': 'entity.type.mojom'
     'end': '(?<=\\})'
     'name': 'meta.interface-block.mojom'
     'patterns': [
@@ -83,9 +83,9 @@
     'begin': '\\b(enum)\\b\\s*([_A-Za-z][_A-Za-z0-9]*)\\b'
     'beginCaptures':
       '1':
-        'name': 'storage.type.mojom'
+        'name': 'keyword.declaration.mojom'
       '2':
-        'name': 'entity.name.type.mojom'
+        'name': 'entity.type.mojom'
     'end': '(?<=\\})'
     'name': 'meta.enum-block.mojom'
     'patterns': [
